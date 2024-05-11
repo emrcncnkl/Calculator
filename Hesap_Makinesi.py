@@ -41,8 +41,8 @@ def bolme(x, y):
 hesaplamaya_devam = "e"
 
 while hesaplamaya_devam == "e":
-    num1 = int(input("Birinci sayıyı girin: "))
-    num2 = int(input("İkinci sayıyı girin: "))
+    num1 = float(input("Birinci sayıyı girin: "))
+    num2 = float(input("İkinci sayıyı girin: "))
     islem = input("Yapmak istediğiniz işlemi girin (+, -, *, /): ")
 
     if islem == '+':
